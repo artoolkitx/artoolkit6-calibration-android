@@ -1,4 +1,4 @@
-# artoolkit6-calibration-android
+# artoolkitX-calibration-android
 AndroidStudio Project for the CameraCalibration 
 
 Read more about the project in the wiki section: https://github.com/artoolkit/artoolkit6-calibration-android/wiki
