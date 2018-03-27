@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ARToolKit Camera Calibration</string>
+    <string name="app_name">artoolkitX Camera Calibration</string>
     <string name="calibration">New calibration</string>
     <string name="undistorted">Undistorted</string>
     <string name="comparison">Comparison</string>
@@ -72,9 +72,9 @@
     <string name="text_calibrationFinished">Calibration finished. Now in preview mode.</string>
     <string name="text_frameRejected">Frame rejected as the angle from camera to pattern is to steep. Angle > 40˚</string>
     <string name="prefCategory_title_server">Server settings</string>
-    <string name="pref_calibrationServerDefault">https://calibration.artoolkit.org/app/calib_camera/upload.php</string>
-    <string name="pref_calibrationServerARTK">https://calibration.artoolkit.org/app/calib_camera/upload.php</string>
-    <string name="pref_calibrationServerTokenDefault">ARToolKit6.Rocks</string>
+    <string name="pref_calibrationServerDefault">https://calibration.artoolkitx.org/app/calib_camera/upload.php</string>
+    <string name="pref_calibrationServerARTK">https://calibration.artoolkitx.org/app/calib_camera/upload.php</string>
+    <string name="pref_calibrationServerTokenDefault">ARToolKit.Rocks</string>
     <string name="pref_calibrationServerTokenARTK">TopSecret</string>
     <string name="calib_stats">Calibration statistics</string>
     <string name="string_averageReproErr">- Average reprojection error</string>

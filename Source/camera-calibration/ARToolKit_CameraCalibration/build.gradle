@@ -8,7 +8,7 @@ android {
     defaultConfig {
         applicationId "org.artoolkitx.arx.calib_camera"
         minSdkVersion 21
-        targetSdkVersion 27  //For now that needs to be 22 because the OpenCV libs still use CameraAPI 1
+        targetSdkVersion 22  //For now that needs to be 22 because the OpenCV libs still use CameraAPI 1
 
         versionCode 100
         versionName "1.0"

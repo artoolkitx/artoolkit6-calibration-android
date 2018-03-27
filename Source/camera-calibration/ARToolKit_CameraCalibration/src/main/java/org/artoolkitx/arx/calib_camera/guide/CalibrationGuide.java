@@ -56,7 +56,7 @@ public class CalibrationGuide {
     private int mWidth;
     private int mHeight;
     private static int CIRCLE_RADIUS = 15;
-    private static Scalar CIRCLE_COLOR = new Scalar(255, 206, 2,1);
+    private static Scalar CIRCLE_COLOR = new Scalar(253, 203, 0,1);
     private static int VALID_DISTANCE_MAX = 60;
     private static int VALID_DISTANCE_MIN = 10;
     private static final int MAX_POINTS = 8;
@@ -65,8 +65,8 @@ public class CalibrationGuide {
     private Mat mCorners;
     private CameraCalibrator mCameraCalibrator;
 
-    private final Scalar arrowColorYellow = new Scalar(255, 206, 2, 1);
-    private final Scalar arrowColorGreen = new Scalar(106, 109, 277,1);
+    private final Scalar arrowColorYellow = new Scalar(253, 203, 0, 1);
+    private final Scalar arrowColorGreen = new Scalar(42, 159, 214,1);
     private Scalar currentArrowColor = arrowColorYellow;
     private long mStartTime;
     private Point mArrowEnd = new Point(0,0);

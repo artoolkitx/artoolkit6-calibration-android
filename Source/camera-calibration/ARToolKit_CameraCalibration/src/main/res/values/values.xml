@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_artk_light">#79CFE3</color>
-    <color name="primary_dark_artk_light">#a7a8aa</color>
+    <color name="primary_artk_light">#fdcb00</color>
+    <color name="primary_dark_artk_light">#B9B9B9</color>
     <color name="primary_dark_artk_light_trans">#66A7A8AA</color>
-    <color name="highlight_artk_light">#009CA7</color>
-    <color name="highlight_artk_light_trans">#66009CA7</color>
-    <color name="background_artk_light">#d0d0ce</color>
-    <color name="colorInfo_artk_light">#FFDA00</color>
-    <color name="error_artk_light">#FB3448</color>
-    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="highlight_artk_light">#2A9FD6</color>
+    <color name="highlight_artk_light_trans">#882a9fd6</color>
+    <color name="background_artk_light">#B9B9B9</color>
+    <color name="colorInfo_artk_light">#fefa46</color>
+    <color name="error_artk_light">#ac2b00</color>
+    <color name="primary_text_default_material_light">#222</color>
     <color name="artk_light_transparent">#00000000</color>
 </resources>
