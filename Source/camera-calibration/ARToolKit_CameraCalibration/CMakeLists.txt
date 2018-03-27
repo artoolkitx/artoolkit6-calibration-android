@@ -26,7 +26,7 @@ add_library( # Specifies the name of the library.
              src/main/cpp/calib_camera.cpp src/main/cpp/fileUploader.cpp)
 
 #Specify the header location
-include_directories(src/main/cpp/ ${CMAKE_CURRENT_SOURCE_DIR}/../../artoolkit6-dependency/include/ ${CMAKE_CURRENT_SOURCE_DIR}/../../curl-dependency/include/ )
+include_directories(src/main/cpp/ ${CMAKE_CURRENT_SOURCE_DIR}/../../artoolkitX-dependency/include/ ${CMAKE_CURRENT_SOURCE_DIR}/../../curl-dependency/include/ )
 
 ##Find Android NDK APIs
 #TBB
@@ -64,7 +64,7 @@ find_library( # Defines the name of the path variable that stores the
               # CMake needs to locate.
               log )
 
-add_library( AR6
+add_library( ARX
              SHARED
              IMPORTED )
 
@@ -83,13 +83,13 @@ set_target_properties( # Specifies the target library.
                      ${CMAKE_CURRENT_SOURCE_DIR}/../../curl-dependency/${ANDROID_ABI}/libcurl.a )
 
 set_target_properties( # Specifies the target library.
-                  AR6
+                  ARX
 
                   # Specifies the parameter you want to define.
                   PROPERTIES IMPORTED_LOCATION
 
                   # Provides the path to the library you want to import.
-                  ${CMAKE_CURRENT_SOURCE_DIR}/../../artoolkit6-dependency/${ANDROID_ABI}/libAR6.so )
+                  ${CMAKE_CURRENT_SOURCE_DIR}/../../artoolkitX-dependency/${ANDROID_ABI}/libARX.so )
 
 # Links your native library against one or more other native libraries.
 target_link_libraries( # Specifies the target library.
@@ -102,4 +102,4 @@ target_link_libraries( # Specifies the target library.
                   calibration_upload_native
 
                   # Links the libraries to the target library.
-                  AR6 )
+                  ARX )

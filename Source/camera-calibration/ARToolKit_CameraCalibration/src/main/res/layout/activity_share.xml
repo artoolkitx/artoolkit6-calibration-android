@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="org.artoolkit.ar6.calib_camera.share.ShareActivity">
+    tools:context="org.artoolkitx.arx.calib_camera.share.ShareActivity">
 
     <ListView android:id="@+id/shareList"
         android:layout_width="match_parent"

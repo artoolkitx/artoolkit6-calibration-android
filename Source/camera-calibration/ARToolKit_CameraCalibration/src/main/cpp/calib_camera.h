@@ -26,7 +26,7 @@
 #ifndef CALIB_CAMERA_H
 #define CALIB_CAMERA_H
 
-#include <AR6/AR/ar.h>
+#include <ARX/AR/ar.h>
 
 #ifdef __cplusplus
 extern "C" {

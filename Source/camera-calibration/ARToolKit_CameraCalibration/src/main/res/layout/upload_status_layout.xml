@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.artoolkit.ar6.calib_camera.CameraCalibrationActivity"
+    tools:context="org.artoolkitx.arx.calib_camera.CameraCalibrationActivity"
     android:id="@+id/uploadStatusLayout"
     style="@style/solidBackground"
     >

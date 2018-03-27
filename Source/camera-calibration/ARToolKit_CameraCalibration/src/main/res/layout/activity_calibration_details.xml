@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="org.artoolkit.ar6.calib_camera.CalibrationDetails"
+    tools:context="org.artoolkitx.arx.calib_camera.CalibrationDetails"
     android:id="@+id/view_camera_calibration_detail">
 
     <FrameLayout

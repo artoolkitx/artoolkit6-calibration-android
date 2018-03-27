@@ -37,7 +37,7 @@
 #include <pthread.h>
 #include <errno.h>
 
-#include <AR6/ARUtil/thread_sub.h>
+#include <ARX/ARUtil/thread_sub.h>
 
 #define  LOG_TAG    "fileUploader"
 

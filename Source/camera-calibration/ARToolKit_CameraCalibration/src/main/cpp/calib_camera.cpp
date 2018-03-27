@@ -122,7 +122,7 @@ void c_nativeSaveParam(float min, float average, int sizeX, float max, int sizeY
                        jsize distLen, const jdouble *distortionCoefficientsArray,
                        const jdouble *cameraMatrix);
 
-#define JNIFUNCTION_NATIVE(sig) Java_org_artoolkit_ar6_calib_1camera_CameraCalibrationActivity_##sig
+#define JNIFUNCTION_NATIVE(sig) Java_org_artoolkitx_arx_calib_1camera_CameraCalibrationActivity_##sig
 
 extern "C" {
 JNIEXPORT void JNICALL JNIFUNCTION_NATIVE(nativeSaveParam(JNIEnv *env, jobject type,
