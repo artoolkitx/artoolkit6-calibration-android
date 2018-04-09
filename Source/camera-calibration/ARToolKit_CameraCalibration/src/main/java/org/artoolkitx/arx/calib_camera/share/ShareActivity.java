@@ -29,7 +29,7 @@ public class ShareActivity extends Activity implements AdapterView.OnItemClickLi
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         File selectedFile = mCalibsList.get(position);
-        Uri contentUri = FileProvider.getUriForFile(this, "org.artoolkit.ar6.fileprovider", selectedFile);
+        Uri contentUri = FileProvider.getUriForFile(this, "org.artoolkitx.arx.fileprovider", selectedFile);
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
         sharingIntent.setType("application/octet-stream");
         sharingIntent.putExtra(Intent.EXTRA_STREAM,contentUri);
