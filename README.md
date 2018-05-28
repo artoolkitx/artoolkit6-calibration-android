@@ -8,19 +8,19 @@ This app helps you to create good camera calibration files that you can use in y
 The ARToolKit6 camera calibration app is a great improvement over the previous camera calibration and helps you to create an amazing user experience for your Apps.
 
 # Features
-###Guided calibration
+### Guided calibration
 ![Guided calibration](https://github.com/artoolkit/artoolkit6-calibration-android/blob/master/Media/Screenshots/guided-calibration.png)
 
-###Share calibration
+### Share calibration
 ![Share calibration](https://github.com/artoolkit/artoolkit6-calibration-android/blob/master/Media/Screenshots/share-calibration.png)
 
-###Choose your calibration service
+### Choose your calibration service
 ![Choose your calibration service](https://github.com/artoolkit/artoolkit6-calibration-android/blob/master/Media/Screenshots/configure-calibration-server.png)
 
-###Compare calibrated and un-calibrated video
+### Compare calibrated and un-calibrated video
 ![Compare calibrated and un-calibrated video](https://github.com/artoolkit/artoolkit6-calibration-android/blob/master/Media/Screenshots/compare-feature.png)
 
-###Alter calibration afterwards
+### Alter calibration afterwards
 ![Alter calibration afterwards](https://github.com/artoolkit/artoolkit6-calibration-android/blob/master/Media/Screenshots/calibration-details.png)
 
 
